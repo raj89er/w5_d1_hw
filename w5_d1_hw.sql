@@ -66,15 +66,15 @@ GROUP BY staff_id;
 -- 6. How many unique district names are there?
 -- city_id from city???
 
-SELECT DISTINCT city_id
-FROM city
-ORDER BY city_id DESC ;
+SELECT DISTINCT district
+FROM address
+ORDER BY district DESC ;
 
-SELECT COUNT(DISTINCT city_id)
-FROM city;
+SELECT COUNT(DISTINCT district)
+FROM address;
 
 
--- There are 600 different cities
+-- There are 378 different cities
 
 
 -- 7. What film has the most actors in it? (use film_actor table and get film_id)
